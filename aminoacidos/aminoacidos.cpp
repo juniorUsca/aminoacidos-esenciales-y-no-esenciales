@@ -117,7 +117,11 @@ int main()
 	string ami;
 	hash_ssi::iterator it;
 
-	for (size_t i = 0;i<cadena.size() - 3;++i) {
+	//este es para tomar de 3 en 3
+	for (size_t i = 0;i<=cadena.size() - 3;i+=3) {
+	
+	//este es para hacer 1 x 1
+	//for (size_t i = 0;i<=cadena.size() - 3;++i) {
 		ami.clear();
 		ami.push_back(cadena[i]);
 		ami.push_back(cadena[i + 1]);
