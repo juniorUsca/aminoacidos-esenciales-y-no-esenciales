@@ -117,7 +117,7 @@ int main()
 	string ami;
 	hash_ssi::iterator it;
 
-	//este es para tomar de 3 en 3
+	//este es para tomar de 3 en 3 los aminoacidos
 	for (size_t i = 0;i<=cadena.size() - 3;i+=3) {
 	
 	//este es para hacer 1 x 1
